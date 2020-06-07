@@ -43,7 +43,8 @@ export default class App extends React.Component {
     <Card.Text>
       <img alt="thumbnail" src={this.state.person.picture.large}/>
       <div><b>Name:</b> {this.state.person.name.title} {this.state.person.name.first} {this.state.person.name.last}</div>
-      <div><b>Age:</b> {this.state.person.dob.age} Date of Birth: {new Date(this.state.person.dob.date).toDateString()}</div>
+      <div><b>Age:</b> {this.state.person.dob.age}</div>
+      <div><b>Date of Birth:</b> {new Date(this.state.person.dob.date).toDateString()}</div>
       <div><b>Address:</b> {this.state.person.location.street.number} {this.state.person.location.street.name} </div>
       <div><b>City:</b> {this.state.person.location.city} </div>
       <div><b>State:</b> {this.state.person.location.state} </div>
@@ -51,7 +52,7 @@ export default class App extends React.Component {
       <div><b>Home Phone Number:</b> {this.state.person.phone} </div>
       <div><b>Cell Phone Number:</b> {this.state.person.cell} </div>
     </Card.Text>
-    <Button variant="primary" onClick={refreshPage}>Generate Another</Button>
+    <Button variant="primary" onClick={refreshPage}>Generate Another Person</Button>
   </Card.Body>
 </Card>
           </div>
