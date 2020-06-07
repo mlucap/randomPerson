@@ -1,4 +1,5 @@
 ## Live Site
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3006107-8837-4af0-be9b-b8156ccdd5af/deploy-status)](https://app.netlify.com/sites/randomperson/deploys)
 https://randomperson.netlify.app
 
 ## How to install
